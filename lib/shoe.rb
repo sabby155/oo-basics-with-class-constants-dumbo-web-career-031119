@@ -10,8 +10,9 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    if brands == brands.uniq
-    BRANDS << brand 
+    if BRANDS == BRANDS.uniq
+      BRANDS << brand
+    end
   end
   
   def cobble
